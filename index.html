@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>webdeveloper</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="container mx-auto px-4">
+    <!-- Navbar -->
+    <div class="navbar bg-base-100 flex justify-between">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl">Knowledge Cafe</a>
+      </div>
+      <div class="dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+          <div class="w-10 rounded-full">
+            <img alt="profile-pic" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+          </div>
+        </div>
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li>
+            <a class="justify-between">
+              Profile <span class="badge">New</span>
+            </a>
+          </li>
+          <li><a>Settings</a></li>
+          <li><a>Logout</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 mt-8">
+      <!-- Right side -->
+      <div class="col-span-12 lg:col-span-8 space-y-5">
+        <!-- Cards 1 -->
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img src="./image/picture1.jpg" alt="Article image" class="w-full" />
+          </figure>
+          <div class="flex items-center p-5">
+            <div class="avatar">
+              <div class="w-10 rounded-full">
+                <img alt="profile-pic" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h2 class="text-xl font-semibold">Mr. Raju</h2>
+              <p class="text-sm text-gray-600">Mar 14 (4 Days ago)</p>
+            </div>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">
+              How to get your first job as a self-taught programmer
+            </h2>
+            <div class="flex space-x-2 text-sm mt-2">
+              <p>#beginners</p>
+              <p>#programming</p>
+            </div>
+            <p class="text-blue-700 text-sm mt-2">Mark as read</p>
+          </div>
+        </div>
+         <!-- Cards 2-->
+         <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img src="./image/picture2.jpg" alt="Article image" class="w-full" />
+          </figure>
+          <div class="flex items-center p-5">
+            <div class="avatar">
+              <div class="w-10 rounded-full">
+                <img alt="profile-pic" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h2 class="text-xl font-semibold">Mr. Raju</h2>
+              <p class="text-sm text-gray-600">Mar 14 (4 Days ago)</p>
+            </div>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">
+              How to get your first job as a self-taught programmer
+            </h2>
+            <div class="flex space-x-2 text-sm mt-2">
+              <p>#beginners</p>
+              <p>#programming</p>
+            </div>
+            <p class="text-blue-700 text-sm mt-2">Mark as read</p>
+          </div>
+        </div>
+         <!-- Cards -->
+         <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img src="./image/picture3.jpg" alt="Article image" class="w-full" />
+          </figure>
+          <div class="flex items-center p-5">
+            <div class="avatar">
+              <div class="w-10 rounded-full">
+                <img alt="profile-pic" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h2 class="text-xl font-semibold">Mr. Raju</h2>
+              <p class="text-sm text-gray-600">Mar 14 (4 Days ago)</p>
+            </div>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">
+              How to get your first job as a self-taught programmer
+            </h2>
+            <div class="flex space-x-2 text-sm mt-2">
+              <p>#beginners</p>
+              <p>#programming</p>
+            </div>
+            <p class="text-blue-700 text-sm mt-2">Mark as read</p>
+          </div>
+        </div>
+      </div>
+      <!-- Left Side -->
+      <div class="col-span-12 lg:col-span-4">
+        <div class="w-full bg-gray-200 shadow-xl rounded-lg p-5">
+          <div class="bg-indigo-300 p-3 rounded-lg">
+            <h2 class="text-sm font-semibold text-indigo-700">Spent time on reading: 177 min</h2>
+          </div>
+          <h1 class="text-lg font-semibold mt-5">Bookmarked Blogs: 8</h1>
+          <div class="space-y-3 mt-5">
+            <div class="bg-white p-4 rounded-lg shadow-md">Master Microsoft Power Platform and Become an In-Demand!</div>
+            <div class="bg-white p-4 rounded-lg shadow-md">Master Microsoft Power Platform and Become an In-Demand!</div>
+            <div class="bg-white p-4 rounded-lg shadow-md">Master Microsoft Power Platform and Become an In-Demand!</div>
+            <div class="bg-white p-4 rounded-lg shadow-md">Master Microsoft Power Platform and Become an In-Demand!</div>
+            <div class="bg-white p-4 rounded-lg shadow-md">Master Microsoft Power Platform and Become an In-Demand!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
